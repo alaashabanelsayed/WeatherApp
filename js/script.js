@@ -1,5 +1,5 @@
 
-"use strict";
+// "use strict";
 
 
 
@@ -46,7 +46,7 @@ days = [
 
 
  async  function getWeather(currentCity='Alexandria') {
-     api = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=bb6e71e9d2fc4d09a94214517221511&q=${currentCity}&days=3`);
+     api = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=bb6e71e9d2fc4d09a94214517221511&q=${currentCity}&days=3`);
      
      responseData = await  api.json();
    console.log(responseData);
