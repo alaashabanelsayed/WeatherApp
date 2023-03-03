@@ -1,0 +1,68 @@
+
+ body{ 
+     background-color:#1e202b ; 
+    background-image: url(/2.jpg);
+/* overflow: hidden; */
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+} 
+
+
+
+.card{
+    background-color:#323544 ;
+    background-color: transparent;
+    color: white;
+    
+}
+.cardDay2{
+    background-color: transparent;
+    /* background-color:#262936 ;  */
+    color: white;
+}
+
+.today-temprature h2 {
+    font-size: 90px;
+    font-weight: 700;
+}
+
+
+
+::placeholder{
+    color: white;
+    font-size: x-large;
+}
+/* .loading{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    display: none;
+}
+
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
+     */
